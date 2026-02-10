@@ -1,0 +1,1 @@
+This project demonstrates Git version control using branches and GitHub.
