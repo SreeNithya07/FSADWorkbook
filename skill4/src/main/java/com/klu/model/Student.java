@@ -6,14 +6,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class Student {
 
-    private int studentId;
+    private long studentId;   // 🔥 changed to long
     private String name;
     private String course;
     private int year;
 
     // Constructor Injection
-    public Student(@Value("2400031738") int studentId,
-                   @Value("P Sree Nithya") String name) {
+    public Student(@Value("2400031738") long studentId,
+                   @Value("P.Sree Nithya") String name) {
         this.studentId = studentId;
         this.name = name;
     }
